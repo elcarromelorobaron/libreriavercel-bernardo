@@ -165,7 +165,7 @@ STORAGES = {
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
+import os
 # Cargar la variable de entorno. El segundo argumento es
 # el valor que ha de tomarse cuando la variable no esté
 # definida.
